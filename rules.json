@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+            "transform": { "host": "xcancel.com" }
+            }
+        },
+        "condition": {
+            "requestDomains": ["x.com"],
+            "resourceTypes": ["main_frame"]
+        }
+    }
+]

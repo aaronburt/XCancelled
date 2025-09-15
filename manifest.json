@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "XCancelled",
+  "version": "1.0",
+  "description": "Redirects x.com to xcancel.com using the declarativeNetRequest API.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
